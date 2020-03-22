@@ -1,6 +1,7 @@
-package com.retar.news_app.ui
+package com.retar.news_app.ui.mainactivity
 
 import android.app.Activity
+import com.retar.news_app.ui.UiModule
 import dagger.Binds
 import dagger.Module
 
