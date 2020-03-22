@@ -28,4 +28,5 @@ script:
   - ./gradlew build --stacktrace
 
 before_install:
-  - yes | sdkmanager "platforms;android-29.0.3"
+  - yes | $ANDROID_HOME/tools/bin/sdkmanager "platforms;android-29.0.3"
+
