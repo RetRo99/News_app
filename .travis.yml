@@ -1,5 +1,10 @@
 language: android
 dist: trusty
+sudo: true
+cache:
+  directories:
+    - $HOME/.m2
+    - $HOME/.gradle
 android:
   components:
     # Uncomment the lines below if you want to
@@ -22,10 +27,6 @@ android:
     - sys-img-x86-android-26
     - sys-img-armeabi-v7a-android-17
 
-jdk:
-  - openjdk11
 script:
   - ./gradlew build --stacktrace
-licenses:
-  - 'android-sdk-license-.+'
 
