@@ -1,4 +1,4 @@
-package com.retar.news_app.ui.article
+package com.retar.news_app.ui.article.adapter
 
 import android.view.LayoutInflater
 import android.view.View
