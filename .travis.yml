@@ -24,3 +24,5 @@ android:
 
 jdk:
     - openjdk11
+script:
+  - ./gradlew build --stacktrace
