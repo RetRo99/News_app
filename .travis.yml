@@ -26,3 +26,6 @@ jdk:
   - openjdk11
 script:
   - ./gradlew build --stacktrace
+
+before_install:
+  - yes | sdkmanager "platforms;android-29.0.3"
