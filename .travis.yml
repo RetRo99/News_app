@@ -29,4 +29,4 @@ android:
     - extra-google-google_play_services
 
 jdk:
-    - openjdk11
+    - openjdk11.0.6
